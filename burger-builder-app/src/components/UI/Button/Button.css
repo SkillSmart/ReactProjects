@@ -1,0 +1,16 @@
+.Button {
+    padding: 8px 0;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    text: inherit;
+    font-weight: bold;
+}
+
+.Cancel {
+    background: red;
+}
+
+.Continue {
+    background: green;
+}
