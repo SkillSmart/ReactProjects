@@ -1,12 +1,19 @@
 import React from 'react';
-import styles from './BlogPost.css';
+import Aux from 'react-aux';
+import styles from './BlogPost.css'
 
 function blogPost(props) {
     return (
-        <div className={styles.BlogPost}>
-            <h1>{props.title}</h1>
-            <p>{props.content}</p>
-        </div>
+        <Aux>
+            <div className={styles.BlogPost}
+                onClick={props.clicked}>
+                <img src={props.headerImg} alt={props.title}/>
+                <div className={styles.BlogBody}>
+                    <h2>{props.title}</h2>
+                    <p>{props.content}</p>
+                </div>
+            </div>
+        </Aux>
     );
 }
 

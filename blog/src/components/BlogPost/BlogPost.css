@@ -1,0 +1,29 @@
+.BlogPost {
+    min-width: 280px;
+    max-width: 280px;
+    margin: 10px;
+    background: white;
+    box-shadow: 2.5px 1.5px 5px darkgrey;
+    border: 2px solid lightgrey;
+}
+
+.BlogBody h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.BlogPost img {
+    width: 100%;
+    margin: 0;
+}
+
+.BlogBody {
+    padding: 22px;
+}
+
+.BlogPost:hover {
+    cursor: pointer;
+    border: 2px solid lightblue;
+}

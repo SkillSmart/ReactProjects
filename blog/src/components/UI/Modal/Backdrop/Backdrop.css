@@ -1,0 +1,8 @@
+.Backdrop {
+    position: fixed;
+    margin: -50;
+    width: 150% !important;
+    height: 120% !important;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 100;
+}

@@ -1,0 +1,15 @@
+.Button {
+    width: 140px;
+    height: 60px;
+}
+
+.More {
+    width: 140px;
+    height: 40px;
+    color: white;
+    background: lightblue;
+    text-align: center;
+    border: none;
+    box-shadow: 2.5px 1.5px 5px darkgrey;
+    
+}
